@@ -1,7 +1,29 @@
 = swedishgrid
 
-Description goes here.
+== DESCRIPTION:
 
-== Copyright
+Convert coordinates between geodetic WGS84 and Swedish grid RT90 and SWEREF99 systems.
+Read more about Swedish grid systems at http://www.lantmateriet.se/templates/LMV_Page.aspx?id=5197
 
-Copyright (c) 2009 Magnus Enarsson. See LICENSE for details.
+Original Javascript-version written by Arnold Andreasson can be found at: http://mellifica.se/geodesi/gausskruger.js
+
+Rewritten in ruby by Magnus Enarsson at ICE House, 2009.
+
+== SYNOPSIS:
+
+  grid = SwedishGrid.new(:rt90)
+  grid.grid_to_geodetic(7453389.762, 1727060.905)
+  # Outputs => [67.0906813246069, 21.034750437141]
+
+== DEPENDENCIES:
+
+No dependencies.
+
+== INSTALL:
+
+  sudo gem install icehouse-swedishgrid
+
+== LICENSE:
+
+http://creativecommons.org/licenses/by-nc-sa/3.0/
+

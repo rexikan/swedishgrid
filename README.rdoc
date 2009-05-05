@@ -1,0 +1,7 @@
+= swedishgrid
+
+Description goes here.
+
+== Copyright
+
+Copyright (c) 2009 Magnus Enarsson. See LICENSE for details.

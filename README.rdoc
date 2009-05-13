@@ -21,7 +21,7 @@ No dependencies.
 
 == LICENSE:
 
-SwedishGrid is released under MIT license with approval from Arnold Andreasson.
+SwedishGrid is released under MIT license with permission from Arnold Andreasson.
 Original Javascript-version written by Arnold Andreasson can be
 found at: http://mellifica.se/geodesi/gausskruger.js
 
